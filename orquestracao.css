@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(26, 26, 26);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#principal {
+    position: absolute;
+    color: white;
+    background: rgb(30, 10, 14);
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#painel-orq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 5, 21);
+    width: 98%;
+    height: 200vh;
+    margin: 2vh;
+    border-radius: 15px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#video-background {
+    margin-top: -5vh;
+    width: 100%;
+    opacity: .8;
+}
+
+#content-orquest{
+    text-align: center;
+}
+
+#btn-back{
+    width: 15vh;
+    height: 7vh;
+    background: rgb(37, 37, 37);
+    color: white;
+    margin-bottom: 2vh;
+    font-size: 15pt;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:500px) {
+    #video-background {
+        margin-top: 5vh;
+        width: 200%;
+    }
+}

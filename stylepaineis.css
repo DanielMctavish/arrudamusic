@@ -1,0 +1,342 @@
+#principal.redimensionate {
+    height: 120vh;
+}
+
+#principal.changeBg {
+    background: linear-gradient(to bottom, rgb(228, 238, 245), rgb(4, 144, 128));
+}
+
+#title-final {
+    position: absolute;
+    top: -10vh;
+    z-index: 1;
+    font-weight: bold;
+    color: rgb(113, 113, 113);
+}
+
+#mini-logo-final {
+    width: 10vh;
+    position: absolute;
+    top: -19vh;
+    z-index: 1;
+}
+
+#music-title {
+    letter-spacing: 6px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#painelBackground {
+    width: 100%;
+    height: 120vh;
+}
+
+#painel-01 {
+    position: absolute;
+    top: 12vh;
+    width: 95%;
+    height: 85vh;
+    background: linear-gradient(to right, rgba(216, 216, 216, 0.85), rgba(163, 163, 163, 0.867));
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+#content-painel01,
+#content-painel02,
+#content-painel03,
+#content-painel04,
+#content-painel05,
+#content-final {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 18vh;
+    color: black;
+    z-index: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    color: rgb(92, 92, 92);
+    width: 70%;
+    height: 70vh;
+    text-align: center;
+    margin: 0;
+}
+
+#btn-orquest-painel {
+    width: 18vh;
+    padding: 6px;
+    color: rgb(145, 145, 145);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(161, 161, 161), rgb(235, 235, 235));
+    border: none;
+    color: rgb(49, 0, 18);
+}
+
+#content-final-painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    color: rgba(144, 144, 144, 0.811);
+    position: absolute;
+    top: -5vh;
+    width: 120vh;
+    height: 85vh;
+    border-radius: 10px;
+    font-size: 12pt;
+}
+
+#content-final-painel-central div {
+    margin-top: 2vh;
+}
+
+#content-final-painel-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8vh;
+}
+
+
+#border-01,
+#border-02 {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(86, 86, 86, 0.593);
+}
+
+#instrument-list {
+    list-style: none;
+}
+
+#content-about-instrumental {
+    margin-top: -3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    text-align: center;
+    float: left;
+}
+
+#content-about-instrumental label {
+    margin-top: 4vh;
+}
+
+#content-painel01 div,
+#content-painel02 div,
+#content-painel03 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+#input-music-time {
+    top: 22vh;
+    position: absolute;
+    width: 15vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+#input-about-music {
+    width: 80%;
+    height: 40vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+#music-name {
+    top: 4vh;
+    position: absolute;
+    width: 35vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+#input-name {
+    position: absolute;
+    top: 15vh;
+    width: 25vh;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    text-align: center;
+    margin: 2vh;
+}
+
+#optionsAll {
+    top: 40vh;
+    position: absolute;
+    width: 25vh;
+    height: 5vh;
+    border-radius: 8px;
+    border: none;
+    padding: 2px;
+    text-align: center;
+}
+
+#btn-next,
+#btn-next2,
+#btn-next3,
+#btn-next4,
+#btn-tenho,
+#btn-no-tenho,
+#btn-solicitar-orcament-final {
+    margin-top: 2vh;
+    padding: 1vh;
+    width: 16vh;
+    color: rgb(79, 0, 15);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(161, 161, 161), rgb(235, 235, 235));
+    border: none;
+}
+
+#btn-cancel {
+    position: absolute;
+    top: 99vh;
+    padding: 1vh;
+    width: 14vh;
+    color: rgb(220, 88, 88);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(161, 161, 161), rgb(235, 235, 235));
+    border: none;
+}
+
+#btn-next:active,
+#btn-next2:active,
+#btn-next3:active,
+#btn-next3:active,
+#btn-next4:active,
+#btn-tenho:active,
+#btn-no-tenho:active,
+#btn-cancel:active,
+#btn-solicitar-orcament-final:active {
+    background: rgb(197, 197, 197);
+    color: rgb(100, 100, 100);
+    box-shadow: 2px 2px 2px rgba(52, 52, 52, 0.142);
+}
+
+#musicTitle {
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 0.7vh;
+    text-align: center;
+    border: 0;
+    outline: none;
+    color: rgb(110, 110, 110);
+    background: none;
+}
+
+#note01 {
+    font-size: 10pt;
+    color: rgb(176, 82, 0);
+}
+
+#note02 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(0, 107, 121);
+}
+
+#formas_pagament {
+    background: rgba(226, 226, 226, 0.919);
+    color: rgb(0, 174, 174);
+    border-radius: 10px;
+    position: absolute;
+    top: 82vh;
+    font-size: 8pt;
+    width: 45vh;
+    padding: 5px;
+}
+
+#describeUser {
+    border: 2px solid rgba(199, 199, 199, 0.751);
+    background: rgba(199, 199, 199, 0.168);
+    border-radius: 5px;
+    width: 50vh;
+    height: 15vh;
+    overflow-y: auto;
+}
+
+#emailField {
+    text-align: center;
+    width: 25vh;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+#nav-painel {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(52, 52, 52);
+}
+
+#title-navbar {
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#mini-logo {
+    cursor: pointer;
+    width: 7vh;
+}
+
+@media screen and (max-width:500px) {
+    #describeUser {
+        width: 30vh;
+    }
+
+    #input-name {
+        position: absolute;
+        top: 15vh;
+        height: 4vh;
+        width: 25vh;
+    }
+
+    #input-name.active {
+        height: 6vh;
+        width: 35vh;
+    }
+
+    #content-painel01.active {
+        width: 65vh;
+        height: 80vh;
+    }
+
+    #content-painel02 {
+        position: absolute;
+        height: 65vh;
+        overflow-y: auto;
+    }
+
+    #input-about-music {
+        position: absolute;
+        top: 60vh;
+        height: 20vh;
+    }
+
+    #btn-next2 {
+        position: absolute;
+        top: 85vh;
+    }
+}
